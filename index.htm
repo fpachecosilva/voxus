@@ -6,6 +6,7 @@
 	<meta http-equiv="content-language" content="pt-br" />
 	<meta http-equiv="Content-Type" content="text/html" />
 	<link type="text/css" rel="stylesheet" href="assets/css/styles.css" media="all" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
 	<header>
@@ -13,7 +14,7 @@
 			<img src="assets/img/logo.png">
 		</article>
 	</header>
-	<section>
+	<section class="conteudo">
 		<article>
 			<h1>
 				Você está a poucos passos de otimizar suas campanhas!
@@ -21,19 +22,40 @@
 			<p>
 				Queremos conhecer mais sobre sua empresa para melhorar sua experiência com a Voxus.
 			</p>
-			
 			<form>
-				
-			</form>
+				<input type="text" name="nome" placeholder="Nome completo" >
+				<input type="tel" name="telefone" placeholder="Telefone">
+				<input type="email" name="email" placeholder="Endereço de e-mail">
+				<input type="text" name="empresa" placeholder="Nome da empresa">
+				<input type="text" name="url" placeholder="URL do site">
+				<select name="verba">
+			    	<option value="" selected disabled hidden>Verba mensal em mídia</option>
+			    	<option value="<= R$5.000"><= R$5.000</option>
+				    <option value=">= R$5.001 e <= R$30.000">>= R$5.001 e <= R$30.000</option>
+				    <option value=">= R$30.001 e <= R$100.000">>= R$30.001 e <= R$100.000</option>
+				    <option value=">= R$100.001 e <= R$500.000">>= R$100.001 e <= R$500.000</option>
+				    <option value=">= R$500.001">>= R$500.001</option>
+				    <option value="Não se aplica">Não se aplica</option>
+			  	</select>
+			  	<button type="submit">
+			  		Experimentar gratuitamente
+			  	</button>
+			</form>			
 		</article>
-	</section>	
-<footer>
-	<article>
-		
-	</article>
-</footer>
+	</section>
 
-<script type="text/javascript" src="assets/js/scripts.js"></script>
+	<footer>
+		<article>
+			<img src="assets/img/logo-footer.png">
+			<a href="#">Termos de serviço</a>
+			<a href="#">Política de privacidade</a>
+			<a href="#">Opções de anúncio</a>
+		</article>
+	</footer>
+
+	<img class="bg" src="assets/img/bg.png" />
+
+	<script type="text/javascript" src="assets/js/scripts.js"></script>
 
 </body>
 </html>
