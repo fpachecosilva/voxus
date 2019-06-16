@@ -126,10 +126,6 @@ form input focus::placeholder {
 	color: #000;
 }
 
-form input::active {
-	color: #000;
-}
-
 .form-wrapper {
 	width: 280px;
 	display: block;
